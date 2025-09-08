@@ -250,4 +250,16 @@ img:hover {
 }
 .no {
     margin-left: -55px;
+} 
+@media(min-width: 768px){
+  .items {
+    flex-direction: row;      /* حط العناصر أفقي */
+    flex-wrap: wrap;          /* باش العناصر تنتقل لسطر جديد إذا جاو بزاف */
+    justify-content: center;  /* وسط العناصر */
+  }
+
+  .item {
+    width: 30%;              /* تقريباً ثلاثة عناصر في السطر */
+    margin: 10px;
+  }
 }
